@@ -1,3 +1,7 @@
 #add {
     float: right;
 }
+
+.mat-column-actions {
+    flex: 0 0 120px;
+  }

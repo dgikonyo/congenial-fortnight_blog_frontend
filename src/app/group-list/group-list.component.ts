@@ -23,7 +23,7 @@ import { DatePipe } from '@angular/common';
 })
 export class GroupListComponent {
   title = 'Group List';
-  loading = false;
+  loading = true;
   groups: Group[] = [];
   displayedColumns = ['id', 'name', 'events', 'actions'];
   feedback: any = {};
@@ -54,5 +54,5 @@ export class GroupListComponent {
       });
     }
   }
-  //protected readonly event = event;
+  protected readonly event = event;
 }
