@@ -54,5 +54,5 @@ export class GroupListComponent {
       });
     }
   }
-  protected readonly event = event;
+  //protected readonly event = event;
 }
